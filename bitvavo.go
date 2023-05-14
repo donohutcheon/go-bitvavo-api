@@ -144,9 +144,9 @@ type TickerBookResponse struct {
 }
 
 type TickerBook struct {
-  Market string `json:"market"`
-  Bid    string `json:"bid"`
-  Ask    string `json:"ask"`
+  Market  string `json:"market"`
+  Bid     string `json:"bid"`
+  Ask     string `json:"ask"`
   BidSize string `json:"bidSize"`
   AskSize string `json:"askSize"`
 }
@@ -256,7 +256,7 @@ type AccountResponse struct {
 }
 
 type Account struct {
-  Fees  FeeObject `json:"fees"`
+  Fees FeeObject `json:"fees"`
 }
 
 type FeeObject struct {
@@ -664,6 +664,10 @@ func updateRateLimit(response http.Header) {
 
 func (bitvavo Bitvavo) GetRemainingLimit() int {
   return rateLimitRemaining
+}
+
+func (bitvavo Bitvavo) GetResetTime() int {
+  return rateLimitReset
 }
 
 func (bitvavo Bitvavo) createPostfix(options map[string]string) string {
