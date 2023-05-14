@@ -1,4 +1,4 @@
-github.com/bitvavo/go-bitvavo-api v1.2.1 h1:PuFH00+U1JKDMnLDh1dPLjgz6ChmFwixNap+S5UipdA=
-github.com/bitvavo/go-bitvavo-api v1.2.1/go.mod h1:hr8A2xbUhpqgqvF+QWfJbwCCyTcUSSDU8L34wM1+yfU=
+github.com/donohutcheon/go-bitvavo-api v0.0.0-20230514134025-c551b10cb66c h1:yze+N87WGOtH+uBzunBSOzr4qg68Ki4hCzSp4AQPIiA=
+github.com/donohutcheon/go-bitvavo-api v0.0.0-20230514134025-c551b10cb66c/go.mod h1:7N/qRhwld7T8RUbOiT+oxM32XbyDHA5Eo9wAxXZYXcc=
 github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
 github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
